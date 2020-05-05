@@ -3,8 +3,6 @@ cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 cloud.google.com/go v0.38.0/go.mod h1:990N+gfupTy94rShfmMCWGDn0LpTmnzTp2qbd1dvSRU=
 code.cloudfoundry.org/bbs v0.0.0-20190724191824-01b96ad15a77 h1:4JLK+aWAWV5VcXZwLTfuyZG/R3jRNde0jyeW0alwhYc=
 code.cloudfoundry.org/bbs v0.0.0-20190724191824-01b96ad15a77/go.mod h1:XKlGVVXFi5EcHHMPzw3xgONK9PeEZuUbIC43XNwxD10=
-code.cloudfoundry.org/cf-operator v1.0.1-0.20200413083459-fb39a29ad746 h1:Kb/2Tb1KkrFQVuftjeaORARcUIgi2/h1GJSSuL8uV88=
-code.cloudfoundry.org/cf-operator v1.0.1-0.20200413083459-fb39a29ad746/go.mod h1:ha//1hiEzpXqf3SvQnqFxUiEhU/mpJRv9TsAj+ztzoY=
 code.cloudfoundry.org/cfhttp/v2 v2.0.0 h1:4+mLfyzm84gUpJnCT68BLPUypGgvUsYq29QKaSotTz4=
 code.cloudfoundry.org/cfhttp/v2 v2.0.0/go.mod h1:Fwt0o/haXfwgOHMom4AM96pXCVw9EAiIcSsPb8hWK9s=
 code.cloudfoundry.org/clock v0.0.0-20180518195852-02e53af36e6c h1:5eeuG0BHx1+DHeT3AP+ISKZ2ht1UjGhm581ljqYpVeQ=
@@ -36,6 +34,8 @@ code.cloudfoundry.org/locket v0.0.0-20190524173003-285105ed8d9a h1:8Bb5HhOwIAKO7
 code.cloudfoundry.org/locket v0.0.0-20190524173003-285105ed8d9a/go.mod h1:AwHLRkdXtttLXNB8RHgLfErJ2kKafH62AR2OClhy6xI=
 code.cloudfoundry.org/quarks-job v0.0.0-20200413001825-770abf29e906 h1:/E5aUwMcPreis3UK4PtotpHQHRKFLP79NIuBb0EWL1k=
 code.cloudfoundry.org/quarks-job v0.0.0-20200413001825-770abf29e906/go.mod h1:sUVpg32Ks2/cIxsN0Jn0jzqUF70Sv8uB9ndXSf9z5+8=
+code.cloudfoundry.org/quarks-operator v1.0.1-0.20200413083459-fb39a29ad746 h1:XHSRAI6VFSzeRHCkEuK6GNhqKGDVoQZPIXdavUkkpII=
+code.cloudfoundry.org/quarks-operator v1.0.1-0.20200413083459-fb39a29ad746/go.mod h1:ha//1hiEzpXqf3SvQnqFxUiEhU/mpJRv9TsAj+ztzoY=
 code.cloudfoundry.org/quarks-utils v0.0.0-20200331122601-bc0838ffea60 h1:1FNLU6zVwDXkLXvJS7RvSScxNpO01NfyiR6Za9Un5Cg=
 code.cloudfoundry.org/quarks-utils v0.0.0-20200331122601-bc0838ffea60/go.mod h1:d2OaSM1qVE/7Zo1imovL7CZCOAShFePFMI3jlpMcp14=
 code.cloudfoundry.org/rep v0.0.0-20200325195957-1404b978e31e h1:vOdVK7gb0N0XyhLaZNqY+Zcia577jhNBpxzbxFqYof0=
@@ -750,8 +750,6 @@ k8s.io/apiserver v0.0.0-20190918160949-bfa5e2e684ad/go.mod h1:XPCXEwhjaFN29a8Nld
 k8s.io/client-go v0.0.0-20190918160344-1fbdaa4c8d90/go.mod h1:J69/JveO6XESwVgG53q3Uz5OSfgsv4uxpScmmyYOOlk=
 k8s.io/client-go v0.0.0-20200330143601-07e69aceacd6 h1:oBJf9DdoYhkXArKYghsSh3rM1CnIrtSi5R05wy7q7bk=
 k8s.io/client-go v0.0.0-20200330143601-07e69aceacd6/go.mod h1:UG7NBipoSMMuA1rcEV7pMkkhEGi9kKtvH7H2/ZHto2w=
-k8s.io/client-go v11.0.0+incompatible h1:LBbX2+lOwY9flffWlJM7f1Ct8V2SRNiMRDFeiwnJo9o=
-k8s.io/client-go v11.0.0+incompatible/go.mod h1:7vJpHMYJwNQCWgzmNV+VYUl1zCObLyodBc8nIyt8L5s=
 k8s.io/code-generator v0.0.0-20190912054826-cd179ad6a269/go.mod h1:V5BD6M4CyaN5m+VthcclXWsVcT1Hu+glwa1bi3MIsyE=
 k8s.io/component-base v0.0.0-20190918160511-547f6c5d7090/go.mod h1:933PBGtQFJky3TEwYx4aEPZ4IxqhWh3R6DCmzqIn1hA=
 k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=

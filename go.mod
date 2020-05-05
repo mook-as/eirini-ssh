@@ -48,3 +48,5 @@ require (
 	k8s.io/client-go v0.0.0-20200330143601-07e69aceacd6
 	sigs.k8s.io/controller-runtime v0.4.0
 )
+
+replace code.cloudfoundry.org/cf-operator => code.cloudfoundry.org/quarks-operator v1.0.1-0.20200413083459-fb39a29ad746
